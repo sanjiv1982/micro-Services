@@ -1,0 +1,26 @@
+
+$ touch .gitignore
+$ git config --global user.name sanjiv
+$ git config --global user.email "anoops932@gmail.com"
+
+
+
+$ git init
+
+$ git add .
+
+$ git commit -m "Initial Commit"
+
+$ git status
+
+$ git remote add origin git@github.com:sanjiv1982/micro-Services.git
+
+$ git push origin master
+
+$ ssh-keygen -t rsa -C "anoops932@gmail.com"
+
+$ cat /c/Users/sanjiv/.ssh/id_rsa.pub
+
+$ git push origin master
+
+
